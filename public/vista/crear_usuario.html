@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html> 
+    <head>     
+        <link href="estilo1.css" rel="stylesheet" />
+        <meta charset="UTF-8"> 
+        <title>Registrarse</title>
+        <h1>Registrarse</h1>
+        <h2 id="logo"></h2>
+    </head> 
+    <body> 
+        <form id="formulario01" method="POST" action="../controladores/crear_usuario.php">    
+            <h2 id="logo"> <img src="sendfast.jpg" alt=""></h2>
+            
+            <input type="text" id="cedula" name="cedula" value="" placeholder="Cedula" 
+            required/>         
+            <br> 
+     
+                     
+            <input type="text" id="nombres" name="nombres" value="" placeholder="Nombres" 
+            required/>         
+            <br> 
+     
+                
+            <input type="text" id="apellidos" name="apellidos" value="" placeholder="Apellidos" 
+            required/>         
+            <br> 
+
+            <input type="text" id="rol" name="rol" value="" placeholder="Rol" 
+            required/>         
+            <br> 
+     
+                 
+            <input type="text" id="direccion" name="direccion" value="" placeholder="Direccion" 
+            required/>         
+            <br> 
+         
+            <input type="text" id="telefono" name="telefono" value="" placeholder="Telefono" 
+            required/>         
+            <br>                 
+     
+                     
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" value="" placeholder="Fecha Nacimiento" 
+            required/>         
+            <br> 
+     
+                   
+            <input type="email" id="correo" name="correo" value="" placeholder="Correo Electronico" 
+            required/>         
+            <br> 
+     
+                 
+            <input type="password" id="contrasena" name="contrasena" value="" placeholder="Contraseña" 
+            required/>         
+            <br> 
+           
+     
+            <input type="submit" id="crear" name="crear" value="Registrarse" />         
+            <input type="reset" id="cancelar" name="cancelar" value="Cancelar" />     
+        </form>     
+        </div>
+    </body> 
+    </html> 
